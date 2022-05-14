@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toll-Gate_Assessment</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="booktodo.css">
+
+
+</head>
+
+<body>
+    <h1>My Booklist</h1>
+    <div class="container">
+        <form required>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="bookname">Name of the Book:</label>
+                    <input id="bookname" type="text" class="form-control" placeholder="Name" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="authorname">Author:</label>
+                    <input id="authorname" type="text" class="form-control" placeholder="Author" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="pub">Publication:</label>
+                    <input id="pub" type="text" class="form-control" placeholder="Publication" required>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="price">Price:</label>
+                    <input id="price" type="text" class="form-control" placeholder="Price" required>
+                </div>
+            </div>
+
+        </form>
+        <br>
+
+        <button class="btn btn-success" type="submit" onclick="addrow()">Add a Book</button>
+
+        <table id="t1">
+            <tr>
+                <th>Name of Book</th>
+                <th>Author</th>
+                <th>Publication</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+            </tr>
+
+        </table>
+        <br>
+
+
+    </div>
+    <script src="booktodo.js"></script>
+</body>
+
+</html>

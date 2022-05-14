@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Patrick Hand', cursive;
+    background: linear-gradient(135deg, #8052ec, #d161ff);
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+table,
+td,
+th {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.container{
+    border: 2px solid lightgreen;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+table{
+    width: 100%;
+    margin-top: 35px;
+    padding: 10px;
+}
+
+.form-control {
+    width: 50%;
+    float: right;
+}
